@@ -1,3 +1,11 @@
+<!--
+
+Home view. This file setup the header part of the Home page,
+which consists in the Vue logo and the introdution text.
+
+-->
+
+<!-- Home template, second div of the page -->
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
@@ -5,6 +13,7 @@
   </div>
 </template>
 
+<!-- Home script, used to pass the string contained on template to HelloWorld.vue script -->
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';

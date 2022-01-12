@@ -5,7 +5,9 @@ This project is based on a tutorial of testdrive.io [flask-vue-crud](https://tes
 I used the tutorial to start my project and from that I created my updates and changes. My intentions are for studies only.
 
 # How to run the project
-In the server folder, activate and run flask:
+
+### Flask section
+Open a new terminal. In the server folder, activate flask:
 
 > $ source env/bin/activate
 
@@ -20,3 +22,14 @@ Then, run the app:
 To test if the app is working fine, point your browser at http://localhost:5000/ping. You should see:
 
 > "pong!"
+
+### Vue section
+
+Open a new terminal. In the client folder, activate vue:
+
+> $ npm run serve
+
+To test if the app is working fine, point your browser at http://localhost:8080. You should see:
+
+![](/client/public/home_basic.png)
+

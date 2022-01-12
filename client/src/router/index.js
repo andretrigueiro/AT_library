@@ -1,9 +1,18 @@
+/*
+
+File to define URLs and map components
+
+*/
+
+// imports
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 
+// vue setup
 Vue.use(VueRouter);
 
+// Define routes
 const routes = [
   {
     path: '/',
@@ -20,6 +29,7 @@ const routes = [
   },
 ];
 
+// Router instance
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,

@@ -1,3 +1,12 @@
+<!--
+
+Main vue, Root component. This file setup the front-end application.
+It shows the sections, like Home and About, and you can choose one of them,
+which changes the restant of the page acoording to the choice.
+
+-->
+
+<!-- First template of the page, with the sections -->
 <template>
   <div id="app">
     <div id="nav">
@@ -8,6 +17,7 @@
   </div>
 </template>
 
+<!-- Main style of the page. It sets some general attributes like test-align -->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
