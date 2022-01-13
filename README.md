@@ -31,5 +31,5 @@ Open a new terminal. In the client folder, activate vue:
 
 To test if the app is working fine, point your browser at http://localhost:8080. You should see:
 
-![](/client/public/home_basic.png)
+![](/client/assets/home_basic.png)
 

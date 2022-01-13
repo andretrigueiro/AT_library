@@ -1,3 +1,10 @@
+<!--
+
+Hello World component. It displays the home page after the second div,
+which is the Home view.
+
+-->
+
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>

@@ -1,4 +1,4 @@
-<!-- 
+<!--
 
 About view. This file setup the header part of the About page, which doens't have content yet.
 

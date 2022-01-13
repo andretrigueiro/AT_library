@@ -1,3 +1,9 @@
+"""
+
+Main script that run the env - and back end? .
+
+"""
+
 #imports
 from flask import Flask, jsonify
 from flask_cors import CORS
