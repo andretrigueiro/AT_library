@@ -6,8 +6,8 @@ Ping component. Just for tests.
 
 <!-- Simple template, just for tests.-->
 <template>
-  <div>
-    <p>{{ msg }}</p>
+  <div class="container">
+    <button type="button" class="btn btn-primary">{{ msg }}</button>
   </div>
 </template>
 

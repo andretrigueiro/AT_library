@@ -7,6 +7,7 @@ Main script that run the env - and back end? .
 #imports
 from flask import Flask, jsonify
 from flask_cors import CORS
+from database.db import BOOKS
 
 # configuration
 DEBUG = True
@@ -26,6 +27,16 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 @app.route('/ping', methods=['GET'])
 def ping_pong():
     return jsonify('pong!')
+
+# ----------------------------------------------------------------------------------------
+
+# route handler of books
+@app.route('/books', methods=['GET'])
+def all_books():
+    return jsonify({
+        'status': 'success',
+        'books': BOOKS
+    })
 
 # ----------------------------------------------------------------------------------------
 

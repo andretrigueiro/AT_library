@@ -8,6 +8,7 @@ File to define URLs and map components
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
+import Books from '../components/Books.vue';
 import Ping from '../components/Ping.vue';
 
 // vue setup
@@ -17,6 +18,11 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    name: 'Books',
+    component: Books,
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home,
   },
