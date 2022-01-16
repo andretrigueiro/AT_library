@@ -17,14 +17,14 @@ Vue.use(VueRouter);
 // Define routes
 const routes = [
   {
-    path: '/books',
-    name: 'Books',
-    component: Books,
-  },
-  {
     path: '/',
     name: 'Home',
     component: Home,
+  },
+  {
+    path: '/books',
+    name: 'Books',
+    component: Books,
   },
   {
     path: '/about',

@@ -9,3 +9,5 @@ https://packaging.python.org/en/latest/tutorials/
 https://docs.python.org/3/tutorial/modules.html#standard-modules
 
 https://bic-berkeley.github.io/psych-214-fall-2016/using_pythonpath.html
+
+https://pymotw.com/2/json/
